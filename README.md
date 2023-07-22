@@ -1,18 +1,22 @@
 # Template Padrão Digital de Governo para Joomla! (govbr-ds-joomla)
+
 Template para o gerenciador de conteudos Joomla! baseado no Padrão Digital de Governo instituido pela [Portaria Nº 540, de 8 de setembro de 2020 - Secretaria de Governo/Presidência da República](https://www.in.gov.br/en/web/dou/-/portaria-n-540-de-8-de-setembro-de-2020-276907456).
 
 ## Sobre o template
-Este template foi criado a partir das especificações disponíveis em https://www.gov.br/ds/, tendo em vista a compatibilidade com a atual versão do Joomla! (4.3.2, neste momento)
+
+Este template foi criado a partir das especificações disponíveis em <https://www.gov.br/ds/>, tendo em vista a compatibilidade com a atual versão do Joomla! (4.3.2, neste momento)
 
 ## Elementos implementados
 
 Componentes:
+
 * com_content.article: Visualização de artigos individuais
 * com_content.category: Visualização estilo _blog_ para categorias
 * com_finder.search: Visualização de resultados de busca
 * com_tags.tag: Visualização de lista de artigos com a _tag_ específica
 
 Módulos:
+
 * mod_articles_latest: Visualização de artigos em texto (Últimas Notícias)
 * mod_articles_news: Visualização de artigos com imagens (Destaques)
 * mod_banners: Visualização de _banners_ estilo carrossel
@@ -21,10 +25,13 @@ Módulos:
 * mod_menu: Visualizações de menus em _layouts_ diversos: Acesso Rápido, Cards, Mapa do Site, Menu Principal, Menu Principal (Área de Links) e Menu Principal (Área de Logos)
 
 Layouts:
+
 * joomla.pagination: Paginação utilizada para navegar em listas de itens
 
 ## Parâmetros
+
 Parâmetros de estilo configurados na área "Avançado" do tema:
+
 * Largura: Fixa ou Fluída. Deixa o conteúdo fixo ou expande para preencher todas as laterais da tela. [Referência](https://www.gov.br/ds/components/menu?tab=desenvolvedor)
 * Menu Principal: Flutuante ou Empurrando. Quando flutuante, exibe o menu com elevação em relação ao conteúdo da página. No outro caso, o menu empurra o conteúdo da página na lateral esquerda. [Referência](https://www.gov.br/ds/components/menu?tab=desenvolvedor)
 * Cor do rodapé: escuro ou claro. [Referência](https://www.gov.br/ds/components/footer?tab=desenvolvedor)
@@ -51,6 +58,7 @@ Parâmetros de estilo configurados na área "Avançado" do tema:
 * Informações legais: texto apresentado no rodapé da página. [Referência](https://www.gov.br/ds/components/footer?tab=desenvolvedor)
 
 ## Posições
+
 * menuacesso: Menu de Acesso, exibido no cabeçalho. É obrigatório o uso do layout "acessorapido" no módulo.
 * search: Área para exibição do módulo Busca Inteligente (finder).
 * menu-body: Menu Principal (Conteúdo). É obrigatório o uso do layout "menuprincipal" nos módulos para itens multiníveis. Utilizar o layout "menuprincipal-nivel1" para exibição de itens de nível 1. Opcionalmente pode-se adicionar um ícone da biblioteca FontAwesome 5 Free para o menu, preenchendo o campo "Classe do Menu".
@@ -66,12 +74,15 @@ Parâmetros de estilo configurados na área "Avançado" do tema:
 * debug: Área para exibição de módulos quando a depuração está habilitada no Joomla.
 
 ## Demonstração
+
 Este template está atualmente em uso em alguns dos sites listados abaixo:
 
 ## Instalação
+
 A versão estável mais recente é disponibilizada na área de [_Releases_](https://github.com/marceloalencar/govbr-ds-joomla/releases).
 
 Utilize a funcionalidade para [baixar o código em formato zip](https://github.com/marceloalencar/govbr-ds-joomla/archive/refs/heads/master.zip) para obter a versão em desenvolvimento.
 
 ## Contribuições
+
 Este espaço está aberto a contribuições da comunidade. Sinta-se livre para enviar _pull requests_ ou relatar falhas ou sugestões.
